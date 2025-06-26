@@ -25,6 +25,7 @@ h1{
     
 }
 #white-box{
+    background-color: aliceblue;
     grid-area:1/1/2/2 ;
 }
 #white-box1{
@@ -45,9 +46,11 @@ h1{
     grid-area: 4/1/7/2;
 }
 #white-box2{
+    background-color: aliceblue;
     grid-area: 4/2/7/3;
 }
 #white-box3{
+    background-color: aliceblue;
     grid-area: 4/3/5/4;
 }
 #black-box2{
