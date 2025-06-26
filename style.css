@@ -11,7 +11,7 @@ body{
     background-color: black;
     display: grid;
     grid-template-columns: 7rem 29rem 4rem;
-    grid-template-rows: 12rem 2rem 15rem 3rem 1rem 3rem;
+    grid-template-rows: 12rem 2rem 15rem 3.25rem 0.10rem 3rem;
     gap: 1rem;
     
 }
