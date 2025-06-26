@@ -7,7 +7,7 @@ body{
 
 .grid-container{
     height: 41rem;
-    width: 41rem;
+    width: 42rem;
     background-color: black;
     display: grid;
     grid-template-columns: 7rem 29rem 4rem;
@@ -19,6 +19,9 @@ body{
 .box{
     background-color: aliceblue;
     
+}
+#white-box{
+    grid-area:1/1/2/2 ;
 }
 #white-box1{
     background-color: aliceblue;
