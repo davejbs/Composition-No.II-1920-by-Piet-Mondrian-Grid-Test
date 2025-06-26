@@ -5,24 +5,21 @@ body{
     flex-direction: column;
     
 }
-
 h1{
     text-align: center;
     margin-bottom: 2rem;
 }
-
 .grid-container{
-    border: 0.75rem solid black;
+    border: solid black;
+    border-width:0.5rem 0.5rem 0rem 0.5rem;
     height: 40.35rem;
     width: 42rem;
     background-color: black;
     display: grid;
     grid-template-columns: 7rem 29rem 4rem;
     grid-template-rows: 12rem 1.5rem 15rem 3.25rem 0.10rem 3rem;
-    gap: 1rem;
-    
+    gap: 1rem;   
 }
-
 .box{
     background-color: aliceblue;
     
@@ -62,21 +59,21 @@ h1{
     grid-area: 6/3/7/4;
 
 }
-
 @media(max-width:1250px){
     body{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-content: center;
+        justify-items: center;
         flex-direction: column;
-        overflow: hidden;    
+        overflow: hidden;
+        height: 100vh;    
         }
-
         h1{
             font-size: 2rem;
+            max-width: 20rem;
         }
     .grid-container{
-        transform: scale(0.6);
+        transform: scale(0.5);
         transform-origin: top center;
     }
 }
